@@ -23,6 +23,7 @@ int main()
         else if (arr[x] > secMax && arr[x] < max)
             secMax= arr[x];
     }
+    free(arr);
     printf("Maximum number in the array is : %d\n",max);
     printf("Secong Maximum number in the array is : %d",secMax);
 }
