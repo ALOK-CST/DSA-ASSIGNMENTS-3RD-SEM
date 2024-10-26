@@ -7,7 +7,7 @@ int main()
     scanf("%d", &n);
     int *arr= (int*)malloc(n*sizeof(int));
     printf("Enter the numbers: ");
-    for (int x =0;x<n;x++)
+    for(int x =0;x<n;x++)
     {
         scanf("%d",&arr[x]);
     }
