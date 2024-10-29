@@ -23,12 +23,8 @@ int main()
             return 0;
         }
         else if(arr[mid]>key)
-        {
             end= mid-1;
-        }
         else
-        {
             start= mid+1;
-        }
     }
 }
