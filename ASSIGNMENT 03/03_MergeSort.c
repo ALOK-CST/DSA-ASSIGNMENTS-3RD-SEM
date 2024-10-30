@@ -23,6 +23,7 @@ void merge(int arr[],int start,int mid,int end)
         temp[index]= arr[left];
         index++,left++;
     }
+    // Elements left in right array
     while(right<=end)
     {
         temp[index]= arr[right];
